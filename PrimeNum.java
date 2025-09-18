@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class PrimeNum {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the number up to which you want prime numbers: ");
-        int n = sc.nextInt();
+        int n = scanner.nextInt();
 
         System.out.println("Prime numbers up to " + n + " are:");
 
