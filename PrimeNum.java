@@ -4,7 +4,7 @@ public class PrimeNum {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.print("Enter the number up to which you want prime numbers: ");
+        System.out.print("Enter the number up to which you want prime number: ");
         int n = in.nextInt();
 
         System.out.println("Prime numbers up to " + n + " are:");
