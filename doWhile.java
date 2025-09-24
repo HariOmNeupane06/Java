@@ -1,7 +1,7 @@
 public class doWhile {
     public static void main(String[] args) {
-        int i = 1;
-        while(i <= 12) {
+        int num = 1;
+        while(num <= 8) {
             System.out.println("Number: " + i);
             i++;  // increment to avoid infinite loop
         }
