@@ -16,9 +16,9 @@ public class LoopsBasics {
         int num = sc.nextInt();
 
         if(num % 2 == 0) {
-            System.out.print(num + " is a Even.");
+            System.out.println(num + " is a Even.");
         } else {
-            System.out.print(num + " is a Odd.");
+            System.out.println(num + " is a Odd.");
         }
 
         sc.close();
