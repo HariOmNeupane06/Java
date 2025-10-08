@@ -1,3 +1,7 @@
+// 🌱 What is a Loop?
+
+// A loop is used when you want to repeat a block of code multiple times until a condition becomes false.
+
 import java.util.Scanner;
 public class LoopsBasics {
     public static void main(String[] args) {
