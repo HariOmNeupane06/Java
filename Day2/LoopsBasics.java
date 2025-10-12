@@ -21,7 +21,7 @@ public class LoopsBasics {
         if(num % 2 == 0) {
             System.out.println(num + " is a Even.");
         } else {
-            System.out.println(num + " is a Odd.");
+            System.out.print(num + " is a Odd.");
         }
 
         sc.close();
