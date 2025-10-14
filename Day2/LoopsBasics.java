@@ -2,6 +2,10 @@
 
 // A loop is used when you want to repeat a block of code multiple times until a condition becomes false.
 
+
+// while loop --> when we dont know how many times loops is going on, at that time we use. 
+// for loop --> when we know hou many times to run , at that time we use for loop. 
+
 import java.util.Scanner;
 public class LoopsBasics {
     public static void main(String[] args) {
