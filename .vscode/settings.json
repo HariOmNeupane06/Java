@@ -38,6 +38,7 @@
   "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.msvcWarnings": [],
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  "code-runner.showRunIconInEditorTitleMenu": true
+  "code-runner.showRunIconInEditorTitleMenu": true,
+  "editor.quickSuggestionsDelay": 0
 
 }
