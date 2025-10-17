@@ -6,6 +6,7 @@ public class temperature {
          float tempC = sc.nextFloat();
          float tempF = (tempC * 9/5) + 32 ;
 
-     System.out.println(" The temperature of " + tempC +" Celsius  " + tempF + " ferhenheit");
+     System.out.println(" The tempe
+     rature of " + tempC +" Celsius  " + tempF + " frehenheit");
     }
 }
