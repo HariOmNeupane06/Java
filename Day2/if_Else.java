@@ -12,7 +12,7 @@ public static void main(String[] args) {
         bonus = 1000;
     }
     int total = salary + bonus;
-  System.out.println("the total salary with bonus is " + total);
+  System.out.println("the total salary with bonus is :-" + total);
 }
 }
 // if our salary is greater than 25000 then add bonus 2000,otherwise add bonus 1000.
