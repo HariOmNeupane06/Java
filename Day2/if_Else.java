@@ -1,9 +1,9 @@
 import java.util.Scanner;
 public class if_Else {
 public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
     System.out.println("Enter your salary: ");
-    int salary = sc.nextInt();
+    int salary = input.nextInt();
     int bonus;
     
     if (salary >=25000 ){
