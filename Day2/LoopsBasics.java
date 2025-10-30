@@ -17,10 +17,10 @@ public class LoopsBasics {
         //     System.out.println(i);
     
         
-        Scanner sc = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
 
         System.out.print("Enter  number: ");
-        int num = sc.nextInt();
+        int num = in.nextInt();
 
         if(num % 2 == 0) {
             System.out.println(num + " is a Even.");
@@ -28,7 +28,7 @@ public class LoopsBasics {
             System.out.println(num + " is a Odd.");
         }
 
-        sc.close();
+        in.close();
 
 
 
