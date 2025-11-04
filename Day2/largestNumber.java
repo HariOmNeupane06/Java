@@ -8,14 +8,18 @@ public class largestNumber {
         int c = in.nextInt();
 
 // Q. Finf the largest of the 3 numbers;
-int max =a;
-if(b > max){
-    max = b;
-}
-if(c > max){
-    max = c;
-}
+// int max =a;
+// if(b > max){
+//     max = b;
+// }
+// if(c > max){
+//     max = c;
+// }
+
+int max = Math.max(a, Math.max(b,c));
+
+
 System.out.println(max);
 
-    }
+    } 
 }
