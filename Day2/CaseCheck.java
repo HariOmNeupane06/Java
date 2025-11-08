@@ -8,9 +8,9 @@ char ch = sc.next().trim().charAt(1);
 
 // System.out.println(ch);
 if (ch >= 'a'&& ch<= 'z'){
-    System.out.println("Lowercase");
+    System.out.println("Lowercase.");
 }else{
-    System.out.println("UpperCase");
+    System.out.println("UpperCase.");
 }
 
 
