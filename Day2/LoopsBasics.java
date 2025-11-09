@@ -16,7 +16,7 @@ public class LoopsBasics {
         // for(int i=0; i<=10; i++){
         //     System.out.println(i);
     
-        
+        // userInput
         Scanner in = new Scanner(System.in);
 
         System.out.print("Enter  number: ");
