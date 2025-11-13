@@ -9,16 +9,14 @@
 
 
 public  class part1{
-
-    static int sum(int a,  int b){
-        int sum = a+b;
-        return sum;
-    }
-
-
-    
-    public static void main(String[] args) {
-        int result = sum(3,5);
-        System.out.println("the sum is :- " + result);
-    }
+static int sum(int a, int b){
+   int result =  a+b;
+   return result;
 }
+   
+public static void main(String[] args) {
+    int input_Number = sum(4,6);
+    System.out.println(input_Number);
+}    
+}
+
