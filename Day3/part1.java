@@ -15,8 +15,8 @@ static int sum(int a, int b){
 }
    
 public static void main(String[] args) {
-    int input_Number = sum(4,6);
-    System.out.print(input_Number);
+    int input_Number = sum(6,9);
+    System.out.println(input_Number);
 }    
 }
 
