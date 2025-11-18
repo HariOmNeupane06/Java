@@ -43,12 +43,40 @@
 
 //   arguments but not return value
 
+// public class part1{
+//     static  void sum(int a , int b){
+//          int result =  a+b;
+//          System.out.println(result);
+//     }
+//     public static void main(String[] args) {
+//         sum(2,4);   
+//     }
+// }
+
+
+
+//  no argument no return value
+
+// public class part1{
+//     static void sayHello(){
+//         System.out.println("hey namastey");
+//     }
+//     public static void main(String[] args) {
+//         sayHello();    // call
+//     }
+// }
+
+
+
+//     argument & return value
+
 public class part1{
-    static  void sum(int a , int b){
-         int result =  a+b;
-         System.out.println(result);
+    static int sum(int a , int b){
+        return a+b;
     }
     public static void main(String[] args) {
-        sum(2,4);
+        int result = sum(4,6);
+        System.out.println(result);
+
     }
 }
