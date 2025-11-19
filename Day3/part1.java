@@ -75,8 +75,8 @@ public class part1{
         return a+b;
     }
     public static void main(String[] args) {
-        int result = sum(4,6);
-        System.out.println(result);
+        int output = sum(4,6);
+        System.out.println(output);
 
     }
 }
