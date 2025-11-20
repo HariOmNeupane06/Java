@@ -71,12 +71,12 @@
 //     argument & return value
 
 public class part1{
-    static int sum(int a , int b){
+    static int add(int a , int b){
         return a+b;
     }
     public static void main(String[] args) {
-        int output = sum(4,6);
-        System.out.println(output);
+        int output = add(4,6);
+        System.out.println(output); 
 
     }
 }
