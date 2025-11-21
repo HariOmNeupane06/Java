@@ -71,8 +71,8 @@
 //     argument & return value
 
 public class part1{
-    static int add(int a , int b){
-        return a+b;
+    static int add(int x , int y){
+        return x+y;
     }
     public static void main(String[] args) {
         int output = add(4,6);
