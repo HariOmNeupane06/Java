@@ -75,7 +75,7 @@ public class part1{
         return x+y;
     }
     public static void main(String[] args) {
-        int output = add(4,6);
+        float output = add(4,6);
         System.out.println(output); 
 
     }
