@@ -71,11 +71,11 @@
 //     argument & return value
 
 public class part1{
-    static int add(int x , int y){
-        return x+y;
+    static int multiply(int x , int y){
+        return x*y;
     }
     public static void main(String[] args) {
-        int output = add(4,6);
+        int output = multiply(4,6);
             System.out.println(output); 
 
          
