@@ -76,7 +76,7 @@ public class part1{
     }
     public static void main(String[] args) {
         int output = multiply(2,6);
-            System.out.println(output); 
+            System.out.print(output); 
 
          
     }
