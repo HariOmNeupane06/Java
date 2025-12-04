@@ -4,22 +4,22 @@ import java.util.Scanner;
 public class Functions {
     public static void main(String[] args) {
 
-        sum();
+        multiply();
     }
 
-      static void sum(){
+      static void multiply(){
 
 
           Scanner sc = new Scanner(System.in);
 
-         System.out.println("Enter the number 1: ");
+         System.out.print("Enter the number 1: ");
           int num1 =  sc.nextInt();
 
-         System.out.println("Enter the number 2: ");
+         System.out.print("Enter the number 2: ");
          int num2 = sc.nextInt();
          
-         int sum = num1 + num2;
-         System.out.println("the sum of  num1 & num2 is: "+ sum); 
+         int multiply = num1 * num2;
+         System.out.println("the multiply of  num1 & num2 is: "+ multiply); 
        }
 
 // access  modeifiers  (we'll look in oop )
