@@ -19,7 +19,7 @@ public class Functions {
          int num2 = sc.nextInt();
          
          int multiply = num1 * num2;
-         System.out.println("the multiply of  num1 & num2 is: "+ multiply); 
+         System.out.println("the multiply of  num1 and num2 is: "+ multiply); 
        }
 
 // access  modeifiers  (we'll look in oop )
