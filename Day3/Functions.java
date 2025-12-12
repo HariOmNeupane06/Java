@@ -10,13 +10,13 @@ public class Functions {
       static void multiply(){
 
 
-          Scanner sc = new Scanner(System.in);
+          Scanner input = new Scanner(System.in);
 
          System.out.println("Enter  number 1: ");
-          int num1 =  sc.nextInt();
+          int num1 =  input.nextInt();
 
          System.out.println("Enter  number 2: ");
-         int num2 = sc.nextInt();
+         int num2 = input.nextInt();
          
          int multiply = num1 * num2;
          System.out.println("the multiply of  num1 and num2 is: "+ multiply); 
