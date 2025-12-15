@@ -20,12 +20,12 @@ public class LoopsBasics {
         Scanner in = new Scanner(System.in);
 
         System.out.print("Enter  number: ");
-        int num = in.nextInt();
+        int number = in.nextInt();
 
-        if(num % 2 == 0) {
-            System.out.print(num + " is a Even.");
+        if(number % 2 == 0) {
+            System.out.print(number + " is a Even.");
         } else {
-            System.out.println(num + " is a Odd.");
+            System.out.println(number + " is a Odd.");
         }
 
         in.close();
