@@ -46,7 +46,7 @@ public class SwitchCase {
         switch(department){
 
             case "IT":  
-            
+          
             System.out.println("IT Department");
             break;
 
@@ -60,7 +60,7 @@ public class SwitchCase {
         }            
          break;
         default:
-        System.out.println("Enter the correct Employee ID");
+        System.out.println("Enter the correct Employees ID");
         break;
     }
 
