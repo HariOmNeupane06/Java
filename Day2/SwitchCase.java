@@ -60,7 +60,7 @@ public class SwitchCase {
         }            
          break;
         default:
-        System.out.println("Enter the correct Employees ID");
+        System.out.print("Enter the correct Employees ID");
         break;
     }
 
