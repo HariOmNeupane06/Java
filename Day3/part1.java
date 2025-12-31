@@ -75,7 +75,7 @@ public class part1{
         return x*y;
     }
     public static void main(String[] args) {
-        int result = multiply(2,6);
+        int result = multiply(3,4);
             System.out.print(result); 
 
          
