@@ -70,14 +70,29 @@
 
 //     argument & return value
 
-public class part1{
-    static int multiply(int x , int y){
-        return x*y;
-    }
-    public static void main(String[] args) {
-        int result = multiply(3,4);
-            System.out.print(result); 
+// public class part1{
+//     static int multiply(int x , int y){
+//         return x*y;
+//     }
+//     public static void main(String[] args) {
+//         int result = multiply(3,4);
+//             System.out.print(result); 
 
          
+//     }
+// }
+
+
+
+
+public class part1 {
+
+    static int add(int x, int y) {
+        return x + y;
+    }
+
+    public static void main(String[] args) {
+        int result = add(4, 6);
+        System.out.println(result);
     }
 }
