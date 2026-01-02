@@ -85,14 +85,26 @@
 
 
 
-public class part1 {
+// public class part1 {
 
-    static int add(int x, int y) {
-        return x + y;
+//     static int add(int x, int y) {
+//         return x + y;
+//     }
+
+//     public static void main(String[] args) {
+//         int result = add(4, 6);
+//         System.out.println(result);
+//     }
+// }
+
+
+public class Main {
+
+    static void greet() {
+        System.out.println("Hello Java");
     }
 
     public static void main(String[] args) {
-        int result = add(4, 6);
-        System.out.println(result);
+        greet();   // function call
     }
 }
