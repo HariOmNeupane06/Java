@@ -39,9 +39,9 @@ public class SimpleArray {
 
         double average = (double) sum / numbers.length;
 
-        System.out.println("Sum: " + sum);
-        System.out.println("Average: " + average);
-        System.out.println("Maximum: " + max);
+        System.out.println("Sum:- " + sum);
+        System.out.println("Average:- " + average);
+        System.out.println("Maximum:- " + max);
     }
 }
 
