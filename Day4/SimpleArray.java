@@ -25,7 +25,7 @@
 
 public class SimpleArray {
     public static void main(String[] args) {
-        int[] numbers = {12, 45, 7, 23, 89};
+        int[] numbers = {12, 45, 7, 23, 39};
 
         int sum = 0;
         int max = numbers[0];
