@@ -23,25 +23,33 @@
 // }
 
 
+// public class SimpleArray {
+//     public static void main(String[] args) {
+//         int[] numbers = {12, 45, 7, 23, 39};
+
+//         int sum = 0;
+//         int max = numbers[0];
+
+//         for (int num : numbers) {
+//             sum += num;               // sum of all elements
+//             if (num > max) {
+//                 max = num;            // find maximum number
+//             }
+//         }
+
+//         double average = (double) sum / numbers.length;
+
+//         System.out.println("Sum:- " + sum);
+//         System.out.println("Average:- " + average);
+//         System.out.println("Maximum:- " + max);
+//     }
+// }
+
 public class SimpleArray {
     public static void main(String[] args) {
-        int[] numbers = {12, 45, 7, 23, 39};
 
-        int sum = 0;
-        int max = numbers[0];
+        int[] x = {5, 10, 15};
 
-        for (int num : numbers) {
-            sum += num;               // sum of all elements
-            if (num > max) {
-                max = num;            // find maximum number
-            }
-        }
-
-        double average = (double) sum / numbers.length;
-
-        System.out.println("Sum:- " + sum);
-        System.out.println("Average:- " + average);
-        System.out.println("Maximum:- " + max);
+        System.out.println("Total elements: " + x.length);
     }
 }
-
