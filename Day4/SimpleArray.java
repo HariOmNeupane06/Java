@@ -48,7 +48,7 @@
 public class SimpleArray {
     public static void main(String[] args) {
 
-        int[] x = {5, 10, 15};
+        int[] x = {5, 10, 15,20,25};
 
         System.out.println("Total elements: " + x.length);
     }
