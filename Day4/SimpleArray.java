@@ -50,6 +50,6 @@ public class SimpleArray {
 
         int[] x = {5, 10, 15,20,25};
 
-        System.out.println("Total elements: " + x.length);
+        System.out.print("Total elements: " + x.length);
     }
 }
