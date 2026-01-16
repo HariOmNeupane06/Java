@@ -48,8 +48,8 @@
 public class SimpleArray {
     public static void main(String[] args) {
 
-        int[] x = {5, 10, 15,20,25};
+        int[] x = {5, 10, 15, 20, 25, 30};
 
-        System.out.print("Total elements: " + x.length);
+        System.out.println("toltal element are: " + x.length);
     }
 }
