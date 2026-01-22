@@ -45,24 +45,24 @@
 //     }
 // }
 
-// public class SimpleArray {
-//     public static void main(String[] args) {
-
-//         int[] x = {5, 10, 15, 20, 25, 30};
-
-//         System.out.println("toltal element are: " + x.length);
-//         System.out.println("Array length");
-//     }
-// }
-
-
 public class SimpleArray {
     public static void main(String[] args) {
 
-        int[] a = {1, 2, 3, 4, 5, 6, 7, 8};
+        int[] x = {5, 10, 15, 20, 25, 30};
 
-        for (int i = a.length - 1; i >= 0; i--) {
-            System.out.println(a[i]);
-        }
+        System.out.println("toltal element are: " + x.length);
+        System.out.println(" this is array length");
     }
 }
+
+
+// public class SimpleArray {
+//     public static void main(String[] args) {
+
+//         int[] a = {1, 2, 3, 4, 5, 6, 7, 8};
+
+//         for (int i = a.length - 1; i >= 0; i--) {
+//             System.out.println(a[i]);
+//         }
+//     }
+// } 
