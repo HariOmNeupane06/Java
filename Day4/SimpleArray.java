@@ -50,7 +50,7 @@ public class SimpleArray {
 
         int[] x = {5, 10, 15, 20, 25};
 
-        System.out.println("toltal element are: " + x.length);
+        System.out.println("Length of  elements: " + x.length);
         System.out.println(" array length");
     }
 }
