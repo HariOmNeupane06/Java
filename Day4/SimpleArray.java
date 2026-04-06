@@ -51,7 +51,7 @@ public class SimpleArray {
         int[] x = {5, 10, 15, 20, 25,30 , 35, 40, 45,50};
 
         System.out.println("Length of  elements: " + x.length);
-        System.out.println(" Arrays Length");
+        System.out.println(" Array  Length");
     }
 }
 
@@ -62,7 +62,7 @@ public class SimpleArray {
 //         int[] a = {1, 2, 3, 4, 5, 6, 7, 8};
 
 //         for (int i = a.length - 1; i >= 0; i--) {
-//             System.out.println(a[i]);
+//             System.out.println(a[i]);t
 //         }
 //     }
 // } 
