@@ -51,18 +51,19 @@ public class SimpleArray {
         int[] x = {5, 10, 15, 20, 25,30 , 35, 40, 45,50};
 
         System.out.println("Length of  elements: " + x.length);
-        System.out.println(" Array  Length");
+        System.out.print (" Length of Array.");
     }
+    
 }
 
 
 // public class SimpleArray {
 //     public static void main(String[] args) {
 
-//         int[] a = {1, 2, 3, 4, 5, 6, 7, 8};
+//         int[] b = {1, 2, 3, 4, 5, 6,7, 8, 9};
 
-//         for (int i = a.length - 1; i >= 0; i--) {
-//             System.out.println(a[i]);t
+//         for (int i = b.length - 1; i >= 0; i--) {
+//             System.out.println(b[i]);t
 //         }
 //     }
 // } 
