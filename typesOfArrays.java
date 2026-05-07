@@ -36,5 +36,34 @@ System.out.println(numbers[i]);
 }
 
 System.out.println("============================================");
-    }
+
+
+//  in for loop we using loop like this  ->    for(int i = 0; i< array.length; i++)
+
+for (int i = 0; i < arr.length; i++) {
+    System.out.println(numbers[i]);
+}
+
+// in for-each loop we using loop like this ->  for(num: array)
+
+System.out.println("======================");
+for(int array :numbers){
+System.out.println(array);
+}
+System.out.println("============================");
+
+
+
+    System.out.println("Length of array: -  " + numbers.length);
+    System.out.println("1st element:-       "+ numbers[0]);
+
+    int mid =  (numbers.length)/2;
+    System.out.println("mid element:-       "+ numbers[mid] );
+    System.out.println("last element:-      "+ numbers[numbers.length-1] );
+
+System.out.println("========================================");
+
+
+
+}
 }
