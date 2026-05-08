@@ -13,7 +13,7 @@ public class LinearSearchArray {
 
                 break;  //stop searching once the key found 
                 
-            }
+            } 
          }
 if(!found){
     System.out.println("Element not found");
