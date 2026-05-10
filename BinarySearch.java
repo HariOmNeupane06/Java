@@ -30,7 +30,7 @@ while( start <= last  ){
 }
 
 if (!found ){
-    System.out.println("element not found");
+    System.out.print("element not found");
 }
 
 
