@@ -1,29 +1,50 @@
 public class arrayPassingInFunction {
 
-public static void printMatrix(int [][] matrix){
-    for(int i = 0; i< matrix.length; i++){
+    // ======= for 1d =======
+   // // array parameter, No return
 
-        for(int j = 0; j<matrix[i].length; j++){
-            System.out.print(matrix[i][j]+ "  ");
+    // public static void printArray(int[] arr) {
+
+    //     for (int i = 0; i < arr.length; i++) {
+
+    //         System.out.print(arr[i] + ", ");
+    //     }
+    // }
+
+    // public static void main(String[] args) {
+    //     int[] arr = {10, 20, 30, 40, 50};
+
+    //     printArray(arr);
+
+    // }
+
+
+
+// Array parameter ,return
+    public static int []printArray(int[] arr) {
+
+        for (int i = 0; i < arr.length; i++) {
+
+        arr[i] = arr[i] *2;
+        }
+        return arr;
+    }
+
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
+        
+        numbers = printArray(numbers);
+
+        for(int i = 0; i< numbers.length; i++){
+            System.out.print(numbers[i]+ "   ");
         }
 
-        System.out.println( );
-    }
-    
-}
-
-    public static void main(String[]args){
-        int[][] matrix = {
-            {1, 2, 3},
-            {4, 5},
-            {6, 7, 8, 9}
-
-        };
-
-printMatrix(matrix);
-
-
-
 
     }
+
+
+
+
+
+
 }
