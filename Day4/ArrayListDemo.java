@@ -31,6 +31,33 @@ public class ArrayListDemo {
         System.out.println("Fruits in the list:");
         for (String fruit : fruits) {
             System.out.println(fruit);
+
         }
+        System.out.println("=========================================================");
+
+// q1. Creates an ArrayList<String> called colors.
+// Adds the colors "Red", "Blue", and "Green".
+// Prints all the colors using a loop.
+// Prints the total number of colors using size().
+
+
+ArrayList<String>colors =  new ArrayList<>();
+ colors.add("Red ");
+ colors.add("Blue ");
+ colors.add("Green ");
+
+
+for(String result: colors){
+    System.out.println(result);
+}
+
+
+System.out.println("The total numbers of colors are: "+ colors.size());
+
+
+System.out.println("=========================================================");
+
+
+
     }
 }
