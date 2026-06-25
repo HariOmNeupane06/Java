@@ -20,7 +20,26 @@ public class StringsExample {
         for (int i = 0; i < fullName.length(); i++) {
             System.out.print(fullName.charAt(i));
         }
+        System.out.println();
+
+        System.out.println("------------------------------------------");
+
+        String a = "ram";
+        String b = "ram";
+
+        // ==
+        System.out.println(a == b);
+
+        String x = new String("Ram");
+        String y = new String("Ram");
+
+        System.out.println(x == y);
+        System.out.println(x.equals(y));
 
     }
 
+// In this string and strings builder concept 
+// strings are   Immutable
+//             &
+// string Builder are mutable   
 }
