@@ -2,7 +2,7 @@
 
 public class fibonacci {
     public static void main(String[] args) {
-        int ans = fibo(9);
+        int ans = fibo(7);
         System.out.println(ans);
     }
 
@@ -14,3 +14,4 @@ public class fibonacci {
         return fibo(n-1) +fibo(n-2);
     }
 }
+
