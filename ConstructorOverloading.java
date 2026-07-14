@@ -18,3 +18,17 @@ class ClassName {
 }
 
 */
+
+
+
+class Student {
+
+    // Default constructor
+    Student() {
+        System.out.println("Constructor is called.");
+    }
+
+    public static void main(String[] args) {
+        Student s1 = new Student(); // Constructor is called automatically
+    }
+}
