@@ -17,18 +17,40 @@ class ClassName {
     }
 }
 
-*/
+ */
 
+//  Constructor Overloading
+public class ConstructorOverloading {
 
+    String name;
+    int age;
 
-class Student {
+    //  Default Constructor
+    ConstructorOverloading() {
+        name = " null";
+        age = 0;
+    }
 
-    // Default constructor
-    Student() {
-        System.out.println("Constructor is called.");
+    // Parameterized Constructor
+    ConstructorOverloading(String n, int a) {
+
+        this.name = n;
+        this.age = a;
+    }
+
+    void Display() {
+        if(name != null && ! name.isEmpty()){
+
+            System.out.printf("%s is %d years old%n", name, age);
+        }
     }
 
     public static void main(String[] args) {
-        Student s1 = new Student(); // Constructor is called automatically
+        ConstructorOverloading obj1 = new ConstructorOverloading();  // for default
+        ConstructorOverloading obj2 = new ConstructorOverloading("Harry", 21);  // for parameterized
+
+        obj1.Display();
+        obj2.Display();
     }
+
 }
