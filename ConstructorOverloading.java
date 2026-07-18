@@ -39,7 +39,7 @@ public class ConstructorOverloading {
     }
 
     void Display() {
-        if(name != null && ! name.isEmpty()){
+        if (name != null && !name.isEmpty()) {
 
             System.out.printf("%s is %d years old%n", name, age);
         }
@@ -49,14 +49,11 @@ public class ConstructorOverloading {
         ConstructorOverloading obj1 = new ConstructorOverloading();  // for default
         ConstructorOverloading obj2 = new ConstructorOverloading("Harry", 21);  // for parameterized
 
-         // we can also  write like this
-         ConstructorOverloading obj3 = obj1;
-         obj1.name = "David";
+        // we can also  write like this
+        ConstructorOverloading obj3 = obj1;
+        obj1.name = "David";
 
-         System.out.println(obj3.name);  //  answer will be same either print  (obj3) or obj3.name .
-
- 
-
+        System.out.println(obj3.name);  //  answer will be same either print  (obj3) or obj3.name .
 
         obj1.Display();
         obj2.Display();
