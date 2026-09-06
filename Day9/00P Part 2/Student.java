@@ -1,5 +1,5 @@
 
-//------------------ Encapsulation -----------------------
+//------------------Encapsulation -----------------------
 class Student{
     private String name;
 
