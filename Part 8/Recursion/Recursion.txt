@@ -1,0 +1,18 @@
+IMPORTANT THINGS:-
+  1 .   Arguments 
+  2 .   Return Type
+  3.    Body of Function
+
+
+
+                    Types of recurrence relation:-
+                   ----------------------------------- 
+
+|         Type                    |     Recurrence          |           Example                  |        Time Complexity          |
+| ------------------------------- | ----------------------- | ---------------------------------- | ------------------------------- |
+|1.   Linear                      |  T(n) = T(n-1) + O(1)   | Recursive Linear Search, Factorial |     O(n)                        |
+|2.   Binary (Divide by 2)        |  T(n) = T(n/2) + O(1)   | Binary Search                      |     O(log n)                    |
+|3.   Multiple Recursive Calls    |  T(n) = 2T(n-1) + O(1)  | Tower of Hanoi                     |     O(2ⁿ)                       |
+|4.   Divide and Conquer          |  T(n) = 2T(n/2) + O(n)  | Merge Sort                         |     O(n log n)                  |
+|5.   Fast Divide and Conquer     |  T(n) = 2T(n/2) + O(1)  | Idealized recursion (rare)         |     O(n)                        |
+|6.   Three-Way Divide            |  T(n) = 3T(n/2) + O(n)  | Some matrix algorithms             |     O(n^log₂3) ≈ O(n^1.585) |

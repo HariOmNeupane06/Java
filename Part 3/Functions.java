@@ -1,0 +1,28 @@
+// package Day3;
+
+import java.util.Scanner;
+public class Functions {
+    public static void main(String[] args) {
+
+        multiply();
+    }
+
+      static void multiply(){
+
+
+          Scanner input = new Scanner(System.in);
+
+         System.out.println("Enter  number 1: ");
+          int num1 =  input.nextInt();
+
+         System.out.println("Enter  number 2: ");
+         int num2 = input.nextInt();
+         
+         int multiply = num1 * num2;
+         System.out.println("the multiply of  num1 and num2 is: "+ multiply); 
+       }
+
+// access  modeifiers  (we'll look in oop )
+
+    }
+

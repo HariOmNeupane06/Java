@@ -1,0 +1,39 @@
+OOP is a programming style where we create objects (like Car, Student, BankAccount) that contain data (properties) and functions (methods).
+
+Main OOP Concepts
+======================
+Encapsulation 🔒
+----------------
+Meaning: Hide data and protect it from direct access.
+Example: ATM hides your bank details.
+
+
+Inheritance 👨‍👦
+---------------
+Meaning: A child class inherits features from a parent class.
+Example: Dog inherits from Animal.
+
+
+Polymorphism 🎭
+---------------
+Meaning: The same method works differently for different objects.
+Example: speak() → Dog: "Bark", Cat: "Meow".
+
+
+Abstraction 🎩
+-------------
+Meaning: Hide complex details and show only what's necessary.
+Example: You drive a car without knowing how the engine works.
+
+
+Easy Memory Trick: EIPA
+-----------------------------
+E – Encapsulation = Hide data
+I – Inheritance = Reuse code
+P – Polymorphism = Same method, different behavior
+A – Abstraction = Hide complexity
+
+
+
+Eg -   If we need to find the data of student, we can have many properties to show like (  name ,  roll no,  gender, adress,  marks )etc 
+       so  at that time we used the OOP constructor.
