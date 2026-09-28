@@ -1,0 +1,68 @@
+🧑‍💻 Student Management System — Task List
+Phase 1 — Planning
+ Create Student.java
+ Create StudentManager.java
+ Create Main.java
+ Decide what each class is responsible for.
+
+
+Phase 2 — Student.java
+ Create a Student class.
+ Add these attributes:
+id
+name
+age
+course
+marks
+ Decide suitable data types for each attribute.
+ Create a constructor.
+ Create getters and setters.
+ Create a method to display a student's information.
+
+
+Phase 3 — Main.java
+ Create the program's starting point.
+ Create the menu.
+ Take the user's menu choice.
+ Use switch or another suitable approach to handle the choice.
+ Keep showing the menu until the user chooses Exit.
+
+
+Phase 4 — StudentManager.java
+ Create a collection to store multiple students.
+ Create a method for Add Student.
+ Create a method for View Students.
+ Create a method for Search Student.
+ Create a method for Update Student.
+ Create a method for Delete Student.
+
+
+
+Phase 5 — Problem-Solving Challenges 🧠
+
+Don't look for the answer immediately. Think about these:
+
+ What should happen if the user enters an ID that already exists?
+ What should happen when there are no students?
+ What should happen when someone searches for an ID that doesn't exist?
+ When updating a student, how will you find the correct student?
+ When deleting a student, how will you find and remove the correct student?
+ What should happen if the user enters an invalid menu option?
+
+
+ 
+Phase 6 — Testing
+
+Test your program with:
+
+ 0 students
+ 1 student
+ Multiple students
+ Duplicate IDs
+ Searching for an existing ID
+ Searching for a non-existing ID
+ Updating an existing student
+ Updating a non-existing student
+ Deleting an existing student
+ Deleting a non-existing student
+ Invalid menu choices
